@@ -1,0 +1,10 @@
+{
+  "name": "fastify-plugin-example",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "scripts": {
+    "start": "fastify"
+  },
+  "type": "module"
+}
