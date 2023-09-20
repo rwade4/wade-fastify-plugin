@@ -3,6 +3,5 @@ export default async function plugin(fastify, options) {
     reply
       .header('Content-Type', 'text/html')
       .send('<html><body>${process.env.TEXT}</body></html>');
-    return { key: 'ricky' };
   });
 }
